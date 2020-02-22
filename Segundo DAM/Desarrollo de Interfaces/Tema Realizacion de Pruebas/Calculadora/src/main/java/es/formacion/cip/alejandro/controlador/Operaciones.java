@@ -1,4 +1,4 @@
-package es.formacion.cip.interfaces;
+package es.formacion.cip.alejandro.controlador;
 
 public class Operaciones {
 
@@ -23,5 +23,11 @@ public class Operaciones {
     public static Double multiplicar(Double valor1, Double valor2) {
         Double resultado = valor1 * valor2;
         return resultado;
+    }
+
+    public static Double restoDivision(Double valor1, Double valor2) {
+        dividir (valor1, valor2);
+        Double resto = valor1 % valor2;
+        return resto;
     }
 }

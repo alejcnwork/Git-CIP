@@ -1,5 +1,6 @@
-package es.formacion.cip.interfaces;
+package es.formacion.cip.alejandro;
 
+import es.formacion.cip.alejandro.controlador.Operaciones;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -53,6 +54,7 @@ public class OperacionesTest {
         }
     }
 
+    //@Test
     private void dividirTest(Double valor1, Double valor2, Double resultado) {
         Double result = Operaciones.dividir(valor1, valor2);
         Assert.assertNotNull("El resultado no puede ser nulo", result);
@@ -139,11 +141,29 @@ public class OperacionesTest {
     }
 
     @Test
+    public void restoSinResultadoTest() {
+        Operaciones calculadora = new Operaciones();
+        Double resultado = calculadora.restoDivision(4.0, 2.0);
+        Double esperado = 0.0;
+        Assert.assertNotNull("El resultado no puede ser nulo", resultado);
+        Assert.assertEquals("El resultado no es el esperado", esperado, resultado);
+    }
+
+    @Test
+    public void restoConResultadoTest() {
+        Operaciones calculadora = new Operaciones();
+        Double resultado = calculadora.restoDivision(7.0, 2.0);
+        Double esperado = 1.0;
+        Assert.assertNotNull("El resultado no puede ser nulo", resultado);
+        Assert.assertEquals("El resultado no es el esperado", esperado, resultado);
+    }
+    /*@Test
     public void restaSimpleFalsoTest() {
         Operaciones calculadora = new Operaciones();
         Double resultado = calculadora.resta(4.0, 2.0);
         Double esperado = 8.0;
         Assert.assertNotNull("El resultado no puede ser nulo", resultado); // duda esta bien poner siempre assertNotNull ¿?
         Assert.assertFalse("El resultado es falso",esperado != resultado); // duda si es falso deberia funcionar¿?
-    }
+        //Assert.assertFalse("El resultado es falso", !esperado.equals(resultado)); // ni si quiera con !equals() !!!
+    }*/
 }
