@@ -75,6 +75,15 @@ public class OperacionesTest {
     }
 
     @Test
+    public void restaSimpleFalsoTest() {
+        Operaciones calculadora = new Operaciones();
+        Double resultado = calculadora.resta(4.0, 2.0);
+        Double esperado = 8.0;
+        Assert.assertNotNull("El resultado no puede ser nulo", resultado); // duda esta bien poner siempre assertNotNull ¿?
+        Assert.assertFalse("El resultado es falso", esperado.equals(resultado));
+    }
+
+    @Test
     public void restaRetornaNegativoTest() {
         Operaciones calculadora = new Operaciones();
         Double resultado = calculadora.resta(-4.0, -2.0);
@@ -157,13 +166,4 @@ public class OperacionesTest {
         Assert.assertNotNull("El resultado no puede ser nulo", resultado);
         Assert.assertEquals("El resultado no es el esperado", esperado, resultado);
     }
-    /*@Test
-    public void restaSimpleFalsoTest() {
-        Operaciones calculadora = new Operaciones();
-        Double resultado = calculadora.resta(4.0, 2.0);
-        Double esperado = 8.0;
-        Assert.assertNotNull("El resultado no puede ser nulo", resultado); // duda esta bien poner siempre assertNotNull ¿?
-        Assert.assertFalse("El resultado es falso",esperado != resultado); // duda si es falso deberia funcionar¿?
-        //Assert.assertFalse("El resultado es falso", !esperado.equals(resultado)); // ni si quiera con !equals() !!!
-    }*/
 }
