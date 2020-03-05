@@ -54,19 +54,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.OperacionesTest.restaSimpleFalsoTest">
-    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="es.formacion.cip.alejandro.Calculadora" />
-      <module name="Calculadora" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="es.formacion.cip.alejandro.controlador.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OperacionesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculadora" />
       <extension name="coverage">
@@ -82,8 +69,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperacionesTest.dividirPorCeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora_Javadoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.formacion.cip.alejandro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.formacion.cip.alejandro" />
+      <option name="MAIN_CLASS_NAME" value="es.formacion.cip.alejandro.OperacionesTest" />
+      <option name="METHOD_NAME" value="dividirPorCeroTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperacionesTest.dividirTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora_Javadoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.formacion.cip.alejandro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.formacion.cip.alejandro" />
+      <option name="MAIN_CLASS_NAME" value="es.formacion.cip.alejandro.OperacionesTest" />
+      <option name="METHOD_NAME" value="dividirTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperacionesTest.restaSimpleFalsoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculadora" />
+      <module name="Calculadora_Javadoc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="es.formacion.cip.alejandro.controlador.*" />
@@ -94,12 +113,13 @@
       <option name="MAIN_CLASS_NAME" value="es.formacion.cip.alejandro.OperacionesTest" />
       <option name="METHOD_NAME" value="restaSimpleFalsoTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperacionesTest.restoConResultadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculadora" />
+    <configuration name="OperacionesTest.restaSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora_Javadoc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="es.formacion.cip.alejandro.*" />
@@ -108,23 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="es.formacion.cip.alejandro" />
       <option name="MAIN_CLASS_NAME" value="es.formacion.cip.alejandro.OperacionesTest" />
-      <option name="METHOD_NAME" value="restoConResultadoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperacionesTest.restoSinResultadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculadora" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="es.formacion.cip.alejandro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="es.formacion.cip.alejandro" />
-      <option name="MAIN_CLASS_NAME" value="es.formacion.cip.alejandro.OperacionesTest" />
-      <option name="METHOD_NAME" value="restoSinResultadoTest" />
+      <option name="METHOD_NAME" value="restaSimpleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,10 +137,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OperacionesTest.restaSimpleFalsoTest" />
+        <item itemvalue="JUnit.OperacionesTest.restaSimpleTest" />
+        <item itemvalue="JUnit.OperacionesTest.dividirTest" />
+        <item itemvalue="JUnit.OperacionesTest.dividirPorCeroTest" />
         <item itemvalue="JUnit.OperacionesTest" />
-        <item itemvalue="JUnit.OperacionesTest.restoConResultadoTest" />
-        <item itemvalue="Application.Calculadora" />
-        <item itemvalue="JUnit.OperacionesTest.restoSinResultadoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +174,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1056" y="98" key="#OperacionesTest.restaSimpleFalsoTest" timestamp="1582757357513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1056" y="98" key="#OperacionesTest.restaSimpleFalsoTest/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582757357513" />
     <state x="557" y="170" key="#OperacionesTest.restaSimpleTest" timestamp="1582371756634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -182,29 +190,37 @@
       <screen x="0" y="23" width="1280" height="1001" />
     </state>
     <state x="403" y="156" key="#xdebugger.evaluate/0.23.1280.1001@0.23.1280.1001" timestamp="1581972315683" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582406691095">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state x="718" y="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582758207628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582758207628" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582754121182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582754121182" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582758246353">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.1280.1001@0.23.1280.1001" timestamp="1581975057216" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582398020935" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582758246353" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1582406691095" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582406691095">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582758246353">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.1280.1001@0.23.1280.1001" timestamp="1581975057216" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582398020934" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582758246353" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1582406691095" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582406691094">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582758246353">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.1280.1001@0.23.1280.1001" timestamp="1581975057215" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582398020934" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582758246353" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1582406691094" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582406691095">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582758246353">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.1280.1001@0.23.1280.1001" timestamp="1581975057216" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582398020934" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582758246353" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1582406691095" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582404219832">
       <screen x="1920" y="-1" width="1920" height="1040" />
@@ -230,14 +246,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582141991208" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582405498646">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583104327013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582405498646" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583104327013" />
     <state x="2576" y="342" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1582399177536" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calculadora$OperacionesTest_restoConResultadoTest.ic" NAME="OperacionesTest.restoConResultadoTest Coverage Results" MODIFIED="1582404158588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>es.formacion.cip.alejandro.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Calculadora_Javadoc$OperacionesTest_dividirPorCeroTest.ic" NAME="OperacionesTest.dividirPorCeroTest Coverage Results" MODIFIED="1582756975554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>es.formacion.cip.alejandro.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Calculadora$OperacionesTest_restaRetornaNegativoTest.ic" NAME="OperacionesTest.restaRetornaNegativoTest Coverage Results" MODIFIED="1582380465484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -276,8 +295,17 @@
     <SUITE FILE_PATH="coverage/Calculadora$OperacionesTest_multiplicarNumeroNegativosTest.ic" NAME="OperacionesTest.multiplicarNumeroNegativosTest Coverage Results" MODIFIED="1582380504546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>es.formacion.cip.interfaces.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Calculadora_Javadoc$OperacionesTest_restaSimpleTest.ic" NAME="OperacionesTest.restaSimpleTest Coverage Results" MODIFIED="1582757319640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>es.formacion.cip.alejandro.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Calculadora$OperacionesTest_restaSimpleTest.ic" NAME="OperacionesTest.restaSimpleTest Coverage Results" MODIFIED="1582380432850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>es.formacion.cip.interfaces.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Calculadora_Javadoc$OperacionesTest_dividirTest.ic" NAME="OperacionesTest.dividirTest Coverage Results" MODIFIED="1582757041329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>es.formacion.cip.alejandro.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Calculadora_Javadoc$OperacionesTest_restaSimpleFalsoTest.ic" NAME="OperacionesTest.restaSimpleFalsoTest Coverage Results" MODIFIED="1582757358329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>es.formacion.cip.alejandro.controlador.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Calculadora$OperacionesTest_restoSinResultadoTest.ic" NAME="OperacionesTest.restoSinResultadoTest Coverage Results" MODIFIED="1582404083935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>es.formacion.cip.alejandro.*</FILTER>

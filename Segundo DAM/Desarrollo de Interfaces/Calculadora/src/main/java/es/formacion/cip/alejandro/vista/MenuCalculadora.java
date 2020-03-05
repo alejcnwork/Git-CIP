@@ -4,8 +4,20 @@ import es.formacion.cip.alejandro.controlador.Operaciones;
 
 import java.util.Scanner;
 
+/**
+ * Esta clase es una clase donde tenemos un menu, y cada menu tiene una opcion
+ * para ser elegida, depende de la opcion haremos una suma, resta, division o
+ * multiplicacion.
+ * @author Alejandro
+ * @version 0.0.3
+ *
+ */
 public class MenuCalculadora {
 
+    /**
+     * Este metodo es el menu donde estan las diferentes opciones de operaciones de la calculadora.
+     * @since 0.0.1
+     */
     public static void Menu() {
         Scanner sc = new Scanner(System.in);
 
