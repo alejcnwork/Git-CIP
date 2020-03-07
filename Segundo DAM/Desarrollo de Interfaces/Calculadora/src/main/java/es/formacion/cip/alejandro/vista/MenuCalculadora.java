@@ -1,7 +1,11 @@
 package es.formacion.cip.alejandro.vista;
 
+import com.itextpdf.text.DocumentException;
 import es.formacion.cip.alejandro.controlador.Operaciones;
+import es.formacion.cip.alejandro.modelo.CreacionPDF;
+import es.formacion.cip.alejandro.modelo.CreacionPDFREADME;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -18,9 +22,10 @@ public class MenuCalculadora {
      * Este metodo es el menu donde estan las diferentes opciones de operaciones de la calculadora.
      * @since 0.0.1
      */
-    public static void Menu() {
+    public static void Menu() throws IOException, DocumentException {
         Scanner sc = new Scanner(System.in);
-
+        CreacionPDF.crearPDFHolaMundo();
+        CreacionPDFREADME.crearPDFREADME();
         int opcion;
         do{
             System.out.println("+ - / * CALCULADORA * / - +");
