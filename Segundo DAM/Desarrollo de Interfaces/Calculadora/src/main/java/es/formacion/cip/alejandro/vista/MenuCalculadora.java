@@ -8,14 +8,6 @@ import es.formacion.cip.alejandro.modelo.CreacionPDFREADME;
 import java.io.IOException;
 import java.util.Scanner;
 
-/**
- * Esta clase es una clase donde tenemos un menu, y cada menu tiene una opcion
- * para ser elegida, depende de la opcion haremos una suma, resta, division o
- * multiplicacion.
- * @author Alejandro
- * @version 0.0.3
- *
- */
 public class MenuCalculadora {
 
     /**
