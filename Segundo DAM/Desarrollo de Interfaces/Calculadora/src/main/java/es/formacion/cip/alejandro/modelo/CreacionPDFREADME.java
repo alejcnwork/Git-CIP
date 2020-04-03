@@ -8,6 +8,9 @@ import java.io.IOException;
 
 public class CreacionPDFREADME {
 
+    /**
+     * Este método nos crea un PDF en la raiz del proyecto simulando el README.MD que tenemos en el repositorio de GitHub
+     */
     public static void crearPDFREADME() throws IOException, DocumentException {
         {
             Document document = new Document();
@@ -17,10 +20,14 @@ public class CreacionPDFREADME {
 
 
 
-            /**creamos fuentes*/
+            /**
+             * creamos fuentes
+             */
             Font fontTitulo = FontFactory.getFont(FontFactory.HELVETICA.toString(), 26, Font.NORMAL);
 
-            /**creamos parrafos*/
+            /**
+             * creamos parrafos
+             */
             Paragraph title0 = new Paragraph(new Paragraph("Proyecto Calculadora\n", fontTitulo));
             Image img = Image.getInstance("image-calcu.jpg");
             img.scaleAbsolute(160,160);
@@ -33,7 +40,9 @@ public class CreacionPDFREADME {
             Paragraph title4 = new Paragraph(new Paragraph("Licencia\n", fontTitulo));
             Paragraph paragraph4 = new Paragraph();
 
-            /** Modificamos parrafos*/
+            /**
+             *  Modificamos parrafos
+             */
             title0.setAlignment(Element.ALIGN_CENTER);
             img.setAlignment(Element.ALIGN_CENTER);
             title1.setAlignment(Element.ALIGN_CENTER);
@@ -45,7 +54,9 @@ public class CreacionPDFREADME {
             title4.setAlignment(Element.ALIGN_CENTER);
             paragraph4.setAlignment(Element.ALIGN_CENTER);
 
-            /**ingresamos los parrafos*/
+            /**
+             * ingresamos los parrafos
+             */
             paragraph1.add("Esta app calculadora te permite hacer cálculos matemáticos, en esta versión \"Tarea 7\" \nestán disponibles las operaciones de sumar, restar, multiplicar, dividir y de resto.\n\n");
             paragraph2.add("Java - Lenguaje de programación\n\n");
             paragraph2.add("IntellJ - IDE\n\n");

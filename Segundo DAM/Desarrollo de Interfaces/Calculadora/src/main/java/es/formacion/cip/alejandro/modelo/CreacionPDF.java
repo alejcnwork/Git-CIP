@@ -9,6 +9,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 public class CreacionPDF {
+    /**
+     * Este método nos crea un PDF en la raiz del proyecto con el texto "hola mundo"
+     */
     public static void crearPDFHolaMundo() throws FileNotFoundException, DocumentException {
         {
             Document document = new Document();

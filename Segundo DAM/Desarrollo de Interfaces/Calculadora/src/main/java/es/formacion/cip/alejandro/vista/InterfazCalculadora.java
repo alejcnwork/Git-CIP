@@ -17,6 +17,10 @@ public class InterfazCalculadora extends JFrame {
     JPanel panelNumeros, panelOperaciones;
     boolean nuevaOperacion = true;
 
+    /**
+     * Este método es el constructor, que crea la interfaz, como los botones y componentes
+     * de la calculadora
+     */
     public InterfazCalculadora(){
         setSize(350, 350);
         setTitle("Calculadora Alejandro Cea");
@@ -61,6 +65,9 @@ public class InterfazCalculadora extends JFrame {
         validate();
     }
 
+    /**
+     *Con este método creamos los botones numéricos
+     */
     private void nuevoBotonNumerico(String digito) {
         JButton btn = new JButton();
     btn.setText(digito);
@@ -76,6 +83,9 @@ public class InterfazCalculadora extends JFrame {
         panelNumeros.add(btn);
     }
 
+    /**
+     * con este otro creamos los botones de operacion + - * /
+     */
     private void nuevoBotonOperacion(String operacion) {
         JButton btn = new JButton(operacion);
         btn.setForeground(Color.RED);
@@ -92,6 +102,9 @@ public class InterfazCalculadora extends JFrame {
         panelOperaciones.add(btn);
     }
 
+    /**
+     * Con este método "guardamos" el número pulsado
+     */
     private void numeroPulsado(String digito) {
         if (pantalla.getText().equals("0") || nuevaOperacion) {
         pantalla.setText(digito);
@@ -100,6 +113,10 @@ public class InterfazCalculadora extends JFrame {
         nuevaOperacion = false;
     }
 
+    /**
+     * Con este método "guardamos" la operación pulsada
+     * @param tecla
+     */
     private void operacionPulsado(String tecla) {
         if (tecla.equals("=")) {
             calcularResultado();
@@ -118,6 +135,9 @@ public class InterfazCalculadora extends JFrame {
 
         nuevaOperacion = true;  }
 
+    /**
+     * Con este último método es donde realizamos las operaciones
+     */
     private void calcularResultado() {
         if (operacion.equals("+")) {
             Double num2 = Double.valueOf(pantalla.getText());
